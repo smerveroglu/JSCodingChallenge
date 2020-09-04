@@ -8,9 +8,19 @@
     
 </body>
 
-<script src="/Users/smeroglu/Desktop/Coding Challenge/Challenge_1.js"></script>
-<script src="/Users/smeroglu/Desktop/Coding Challenge/Challenge_2.js"></script>
-<script src="/Users/smeroglu/Desktop/Coding Challenge/Challenge_3s.js"></script>
+<script src="/Users/smeroglu/Desktop/CC/Challenge_1.js"></script>
+<script src="/Users/smeroglu/Desktop/CC/Challenge_2.js"></script>
+<script src="/Users/smeroglu/Desktop/CC/Challenge_4.js"></script>
 
 
 </html>
+console.log(age);
+var age = 23;
+
+function foo() {
+    console.log(this.age);
+    var age = 65;
+    console.log(age);
+}
+foo();
+console.log(age);
