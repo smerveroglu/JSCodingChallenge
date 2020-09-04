@@ -1,13 +1,13 @@
 var Mark ={
-    fullName = 'Mark', 
-    mass = 97,
-    height = 1.82
+    fullName : 'Mark', 
+    mass : 97,
+    height : 1.82
 };
 
 var John ={
-    fullName = 'John', 
-    mass = 83,
-    height = 1.95
+    fullName : 'John', 
+    mass : 83,
+    height : 1.95
 };
 
 var calcBMI = function (mass, height){
@@ -18,7 +18,7 @@ var markBMI = calcBMI(Mark.mass, Mark.height);
 var johnBMI = calcBMI(John.mass, John.height);
 
 if(markBMI > johnBMI){
-    console.log(mark.fullName + ' ' + markBMI);
+    console.log(Mark.fullName + ' ' + markBMI);
 }
 else if(markBMI == johnBMI){
     console.log(Mark.fullName + ' ' + markBMI);
