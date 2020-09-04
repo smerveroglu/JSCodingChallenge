@@ -1,4 +1,6 @@
-
+/* This js file include app.js with code part that was written by Sevdi Merve Eroğlu 
+   based on code challenge 6. 
+*/
 var scores, roundScore, activePlayer, gamePlaying;
 
 init();
